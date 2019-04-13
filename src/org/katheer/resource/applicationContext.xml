@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="t1" class="org.katheer.bean.Transportation">
+        <property name="lorryNo" value="TN57 AB7097"/>
+        <property name="driverName" value="Vetrivel"/>
+        <property name="from" value="Naga Mills, Dindigul"/>
+        <property name="to" value="Britannia, Madurai"/>
+        <property name="grossWeight" value="35 tonnes"/>
+        <property name="netWeight" value="25 tonnes"/>
+        <property name="cost" value="Rs.48,000"/>
+    </bean>
+</beans>
